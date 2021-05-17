@@ -32,3 +32,13 @@ int solution(int n, vector<vector<int>> computers) {
     }
     return answer;
 }
+
+int main()
+{
+    vector<vector<int>> v = { {1,1,0},
+                              {1,1,0},
+                              {0,0,1} };
+    solution(2, v);
+
+    return 0;
+}

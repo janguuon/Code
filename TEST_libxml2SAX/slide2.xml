@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Info>
+	<car country="german">
+		<name> BMW </name>
+		<price> 150 </price>
+	</car>
+	<driver country="US">
+		<name> james </name>
+		<age> 22 </age>
+	</driver>
+	<car country="italy">
+		<name> ferrari </name>
+		<price> 1500 </price>
+	</car>
+	<driver country="KR">
+		<name> Kim </name>
+		<age> 31 </age>
+	</driver>
+</Info>

@@ -1,0 +1,24 @@
+﻿  TEST_libxml2.cpp
+  TEST_libxml2SAX.cpp
+  TEST_libxml2XPath.cpp
+  코드를 생성하고 있습니다...
+TEST_libxml2SAX.obj : error LNK2005: _main이(가) TEST_libxml2.obj에 이미 정의되어 있습니다.
+TEST_libxml2XPath.obj : error LNK2005: _main이(가) TEST_libxml2.obj에 이미 정의되어 있습니다.
+TEST_libxml2.obj : error LNK2019: _xmlFreeDoc_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2.obj : error LNK2019: _xmlDocGetRootElement_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2.obj : error LNK2019: _xmlCleanupParser_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2SAX.obj : error LNK2001: 확인할 수 없는 외부 기호 _xmlCleanupParser
+TEST_libxml2.obj : error LNK2019: _xmlReadFile_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2SAX.obj : error LNK2019: _xmlParserError"int __cdecl read_xmlFile(struct _iobuf *)" (?read_xmlFile@@YAHPAU_iobuf@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2SAX.obj : error LNK2019: _xmlFreeParserCtxt"int __cdecl read_xmlFile(struct _iobuf *)" (?read_xmlFile@@YAHPAU_iobuf@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2SAX.obj : error LNK2019: _xmlCreatePushParserCtxt"int __cdecl read_xmlFile(struct _iobuf *)" (?read_xmlFile@@YAHPAU_iobuf@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2SAX.obj : error LNK2019: _xmlParseChunk"int __cdecl read_xmlFile(struct _iobuf *)" (?read_xmlFile@@YAHPAU_iobuf@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2XPath.obj : error LNK2019: _xmlReadDoc_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2XPath.obj : error LNK2019: _xmlXPathFreeObject_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2XPath.obj : error LNK2019: _xmlXPathNewContext_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2XPath.obj : error LNK2019: _xmlXPathFreeContext_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2XPath.obj : error LNK2019: _xmlXPathCtxtCompile_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2XPath.obj : error LNK2019: _xmlXPathCompiledEval_main 함수에서 참조되는 확인할 수 없는 외부 기호
+TEST_libxml2XPath.obj : error LNK2019: _xmlXPathDebugDumpObject_main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\ojw\source\repos\TEST_libxml2SAX\packages\libxml2.2.7.8.7\build\native\lib\v110\x64\Debug\dynamic\cdecl\libxml2.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\ojw\source\repos\TEST_libxml2SAX\Debug\TEST_libxml2SAX.exe : fatal error LNK1120: 15개의 확인할 수 없는 외부 참조입니다.
